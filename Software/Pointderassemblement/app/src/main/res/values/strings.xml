@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Point de rassemblement</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="switch_on">Direct</string>
+    <string name="switch_off">Non direct</string>
+    <string name="button_play">"Play"</string>
+    <string name="SON_1">SON 1</string>
+    <string name="SON_2">SON 2</string>
+    <string name="SON_3">SON 3</string>
+    <string name="SON_4">SON 4</string>
+</resources>

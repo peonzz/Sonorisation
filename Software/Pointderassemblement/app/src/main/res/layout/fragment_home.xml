@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_marginStart="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:paddingStart="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center_horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/background_round2"
+                android:backgroundTint="@color/gray2"
+                >
+
+                <ImageButton
+                    android:id="@+id/btnson1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="@color/grayDarkDisabled"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/ic_play"
+                    tools:ignore="MissingConstraints"
+                    />
+
+                <TextView
+                    android:id="@+id/tvFilename1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/SON_1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/background_round2"
+                android:backgroundTint="@color/gray2">
+
+                <ImageButton
+                    android:id="@+id/btnson3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="@color/grayDarkDisabled"
+                    android:clickable="true"
+                    android:src="@drawable/ic_play"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tvFilename3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/SON_3"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:paddingStart="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/background_round2"
+                android:backgroundTint="@color/gray2">
+
+                <ImageButton
+                    android:id="@+id/btnson2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="@color/grayDarkDisabled"
+                    android:clickable="true"
+                    android:src="@drawable/ic_play"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tvFilename2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/SON_2"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/background_round2"
+                android:backgroundTint="@color/gray2">
+
+                <ImageButton
+                    android:id="@+id/btnson4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="@color/grayDarkDisabled"
+                    android:clickable="true"
+                    android:src="@drawable/ic_play"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tvFilename4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/SON_4"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw"
+        android:gravity="center"
+        android:text="Direct"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/ic_circle"
+        android:backgroundTint="@color/gray"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <ToggleButton
+            android:id="@+id/micro"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/mic_background"
+            android:backgroundTint="@color/mic_background_color"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageButton
+            android:id="@+id/cycle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_circle"
+            android:src="@drawable/ic_noreplay"
+            app:layout_constraintBottom_toTopOf="@+id/micro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+            app:layout_constraintVertical_bias="0.63" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
